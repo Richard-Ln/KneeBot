@@ -1,4 +1,5 @@
 # KneeBot
+
 ### A Multi-Label Machine Learning Recommendation System for Joint Pain Management
 
 KneeBot is an end-to-end intelligent application designed to provide personalized, educational joint pain management recommendations. By analyzing a user's demographics, occupational habits, and physical metrics, the system generates a tailored treatment plan encompassing optimal over-the-counter (OTC) medications and targeted exercises. 
@@ -83,3 +84,6 @@ Developing a multi-label classification model for subjective health survey data 
 
 **Why Random Forest?**
 While Exact Match Ratios (Strict Accuracy) were uniformly low across all models due to the high-dimensionality of the 31 possible target labels, **Random Forest** was selected as the production model. It natively handles multi-label outputs, is highly resistant to overfitting on our continuous variables, and provided the most balanced Hamming Loss matrix (minimizing the fraction of incorrect individual labels). It also allows for efficient `predict_proba` extraction to rank treatments by confidence scores.
+
+
+**Developed By:** Richard Linn, Ryan Galbraith, Selia Mercedes Jimenez, Alexa Li Slaughter, Phan Binh Nhu Le, & Natalia Del Rio
